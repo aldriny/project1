@@ -1,0 +1,107 @@
+body {
+    overflow-x: hidden;
+}
+
+#user-layout-body {
+    background-color: #040718;
+    background-image: linear-gradient(160deg, #040718 0%, #142051 100%);
+    font-family: 'serif', sans-serif !important;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.card-bg-color {
+    background-color: #040718;
+    background-image: linear-gradient(160deg, #040718 0%, #4e5b89 100%);
+}
+
+hr {
+    border-top: 2px solid rgb(29, 63, 75);
+}
+
+hr.hr-text {
+    position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+}
+
+hr.hr-text::before {
+    content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #999;
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#become-parnter-form {
+    background-color: #040718;
+    background-image: linear-gradient(160deg, #040718 0%, #142051 100%);
+}
+
+#partners-div {
+    padding-bottom: 50px;
+}
+
+#partners {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 992px) {
+    #partners {
+        margin-left: 140px;
+    }
+}
+
+
+/* User Style */
+
+#search-body a {
+    color: black;
+}
+
+#search-body a:hover {
+    color: orange;
+}
+
+
+/* View Place Style */
+
+#view_place_card {
+    border: .5px solid transparent;
+    border-radius: 25px;
+    background-color: #040718;
+    background-image: linear-gradient(160deg, #040718 0%, #222b4f 100%);
+    /* background-color: #040718;
+    background-image: linear-gradient(160deg, rgb(199, 128, 27) 0%, #302917 100%); */
+}
+
+#place_images_slide {
+    width: 500px;
+}
+
+@media (max-width: 992px) {
+    #place_images_slide {
+        padding: 20px;
+        width: 400px;
+    }
+}
+
+#place_dir:hover {
+    background-color: orange !important;
+    color: black !important;
+}
